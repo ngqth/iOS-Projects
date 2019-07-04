@@ -1,0 +1,6 @@
+framework module Pods_OMDBTests {
+  umbrella header "Pods-OMDBTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
