@@ -26,6 +26,14 @@
             </objects>
             <point key="canvasLocation" x="621.73913043478262" y="-144.64285714285714"/>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="ILU-h2-TJC">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="hSJ-bh-OOn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Xv-M1-zrM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1493" y="-145"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="nG0-gB-fR6">
             <objects>
