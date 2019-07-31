@@ -3,19 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		26CAE27022CCE6DF003B60E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE26F22CCE6DF003B60E3 /* AppDelegate.swift */; };
-		26CAE27222CCE6DF003B60E3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE27122CCE6DF003B60E3 /* FirstViewController.swift */; };
-		26CAE27422CCE6DF003B60E3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE27322CCE6DF003B60E3 /* SecondViewController.swift */; };
 		26CAE27722CCE6DF003B60E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE27522CCE6DF003B60E3 /* Main.storyboard */; };
 		26CAE27922CCE6E1003B60E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE27822CCE6E1003B60E3 /* Assets.xcassets */; };
 		26CAE27C22CCE6E1003B60E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE27A22CCE6E1003B60E3 /* LaunchScreen.storyboard */; };
 		26CAE28722CCE6E1003B60E3 /* OMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE28622CCE6E1003B60E3 /* OMDBTests.swift */; };
 		26CAE29222CCE6E1003B60E3 /* OMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE29122CCE6E1003B60E3 /* OMDBUITests.swift */; };
 		26CAE2A022CCEDBB003B60E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE29F22CCEDBB003B60E3 /* GoogleService-Info.plist */; };
+		26CE851722F232E80066FF25 /* OMDBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851622F232E80066FF25 /* OMDBCell.swift */; };
+		26CE851922F2330D0066FF25 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851822F2330D0066FF25 /* MainTableViewController.swift */; };
+		26CE851B22F2369A0066FF25 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851A22F2369A0066FF25 /* Movie.swift */; };
 		33C48004CA9E358389C57501 /* Pods_OMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036682CC77F5E8CEA3AF2261 /* Pods_OMDB.framework */; };
 		C62B44979D47FAA4C88AB814 /* Pods_OMDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71877BEA137EE04EC6651542 /* Pods_OMDBTests.framework */; };
 		E622252ED401837A649DADD5 /* Pods_OMDBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C696FD97AFEF23DC0524FC61 /* Pods_OMDBUITests.framework */; };
@@ -43,8 +44,6 @@
 		1CFB9F0430172CC022D9E7F8 /* Pods-OMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB.debug.xcconfig"; path = "Target Support Files/Pods-OMDB/Pods-OMDB.debug.xcconfig"; sourceTree = "<group>"; };
 		26CAE26C22CCE6DF003B60E3 /* OMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CAE26F22CCE6DF003B60E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26CAE27122CCE6DF003B60E3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		26CAE27322CCE6DF003B60E3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		26CAE27622CCE6DF003B60E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26CAE27822CCE6E1003B60E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CAE27B22CCE6E1003B60E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +55,9 @@
 		26CAE29122CCE6E1003B60E3 /* OMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBUITests.swift; sourceTree = "<group>"; };
 		26CAE29322CCE6E1003B60E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26CAE29F22CCEDBB003B60E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		26CE851622F232E80066FF25 /* OMDBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBCell.swift; sourceTree = "<group>"; };
+		26CE851822F2330D0066FF25 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		26CE851A22F2369A0066FF25 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		416A5E32665B3C34450DC867 /* Pods-OMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB.release.xcconfig"; path = "Target Support Files/Pods-OMDB/Pods-OMDB.release.xcconfig"; sourceTree = "<group>"; };
 		71877BEA137EE04EC6651542 /* Pods_OMDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CC8D5B2DFDE50C5F4092B8 /* Pods-OMDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBTests.release.xcconfig"; path = "Target Support Files/Pods-OMDBTests/Pods-OMDBTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				C7089D5817FC509DFB181882 /* Pods-OMDBUITests.debug.xcconfig */,
 				E07C12F533300027417EC2E0 /* Pods-OMDBUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,8 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				26CAE26F22CCE6DF003B60E3 /* AppDelegate.swift */,
-				26CAE27122CCE6DF003B60E3 /* FirstViewController.swift */,
-				26CAE27322CCE6DF003B60E3 /* SecondViewController.swift */,
+				26CE851622F232E80066FF25 /* OMDBCell.swift */,
+				26CE851822F2330D0066FF25 /* MainTableViewController.swift */,
+				26CE851A22F2369A0066FF25 /* Movie.swift */,
 				26CAE27522CCE6DF003B60E3 /* Main.storyboard */,
 				26CAE27822CCE6E1003B60E3 /* Assets.xcassets */,
 				26CAE27A22CCE6E1003B60E3 /* LaunchScreen.storyboard */,
@@ -244,13 +246,16 @@
 				TargetAttributes = {
 					26CAE26B22CCE6DF003B60E3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 					26CAE28122CCE6E1003B60E3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 26CAE26B22CCE6DF003B60E3;
 					};
 					26CAE28C22CCE6E1003B60E3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 						TestTargetID = 26CAE26B22CCE6DF003B60E3;
 					};
 				};
@@ -394,9 +399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26CAE27422CCE6DF003B60E3 /* SecondViewController.swift in Sources */,
 				26CAE27022CCE6DF003B60E3 /* AppDelegate.swift in Sources */,
-				26CAE27222CCE6DF003B60E3 /* FirstViewController.swift in Sources */,
+				26CE851922F2330D0066FF25 /* MainTableViewController.swift in Sources */,
+				26CE851B22F2369A0066FF25 /* Movie.swift in Sources */,
+				26CE851722F232E80066FF25 /* OMDBCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,8 +586,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NQT.OMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -598,8 +604,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NQT.OMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -618,7 +624,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NQT.OMDBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMDB.app/OMDB";
 			};
@@ -639,7 +645,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NQT.OMDBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMDB.app/OMDB";
 			};
@@ -659,7 +665,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NQT.OMDBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = OMDB;
 			};
@@ -679,7 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = NQT.OMDBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = OMDB;
 			};

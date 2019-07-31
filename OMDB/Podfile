@@ -6,8 +6,10 @@ target 'OMDB' do
   use_frameworks!
 
   # Pods for OMDB
-	
-	pod 'Firebase/Core'
+	pod "TMDBSwift"
+	pod "SwiftyJSON"
+	pod 'Kingfisher'
+	pod 'FoldingCell'
 
   target 'OMDBTests' do
     inherit! :search_paths

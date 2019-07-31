@@ -1,77 +1,28 @@
 PODS:
-  - Firebase/Core (6.0.0):
-    - Firebase/CoreOnly
-    - FirebaseAnalytics (= 6.0.0)
-  - Firebase/CoreOnly (6.0.0):
-    - FirebaseCore (= 6.0.0)
-  - FirebaseAnalytics (6.0.0):
-    - FirebaseCore (~> 6.0)
-    - FirebaseInstanceID (~> 4.0)
-    - GoogleAppMeasurement (= 6.0.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
-    - GoogleUtilities/MethodSwizzler (~> 6.0)
-    - GoogleUtilities/Network (~> 6.0)
-    - "GoogleUtilities/NSData+zlib (~> 6.0)"
-    - nanopb (~> 0.3)
-  - FirebaseCore (6.0.0):
-    - GoogleUtilities/Environment (~> 6.0)
-    - GoogleUtilities/Logger (~> 6.0)
-  - FirebaseInstanceID (4.0.0):
-    - FirebaseCore (~> 6.0)
-    - GoogleUtilities/Environment (~> 6.0)
-    - GoogleUtilities/UserDefaults (~> 6.0)
-  - GoogleAppMeasurement (6.0.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
-    - GoogleUtilities/MethodSwizzler (~> 6.0)
-    - GoogleUtilities/Network (~> 6.0)
-    - "GoogleUtilities/NSData+zlib (~> 6.0)"
-    - nanopb (~> 0.3)
-  - GoogleUtilities/AppDelegateSwizzler (6.1.0):
-    - GoogleUtilities/Environment
-    - GoogleUtilities/Logger
-    - GoogleUtilities/Network
-  - GoogleUtilities/Environment (6.1.0)
-  - GoogleUtilities/Logger (6.1.0):
-    - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (6.1.0):
-    - GoogleUtilities/Logger
-  - GoogleUtilities/Network (6.1.0):
-    - GoogleUtilities/Logger
-    - "GoogleUtilities/NSData+zlib"
-    - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (6.1.0)"
-  - GoogleUtilities/Reachability (6.1.0):
-    - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (6.1.0):
-    - GoogleUtilities/Logger
-  - nanopb (0.3.901):
-    - nanopb/decode (= 0.3.901)
-    - nanopb/encode (= 0.3.901)
-  - nanopb/decode (0.3.901)
-  - nanopb/encode (0.3.901)
+  - FoldingCell (5.0.1)
+  - Kingfisher (5.7.0)
+  - SwiftyJSON (5.0.0)
+  - TMDBSwift (0.5.1)
 
 DEPENDENCIES:
-  - Firebase/Core
+  - FoldingCell
+  - Kingfisher
+  - SwiftyJSON
+  - TMDBSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Firebase
-    - FirebaseAnalytics
-    - FirebaseCore
-    - FirebaseInstanceID
-    - GoogleAppMeasurement
-    - GoogleUtilities
-    - nanopb
+    - FoldingCell
+    - Kingfisher
+    - SwiftyJSON
+    - TMDBSwift
 
 SPEC CHECKSUMS:
-  Firebase: fa80b9d987ca014a1ba9357496ef2a0178b28b12
-  FirebaseAnalytics: 1743c5f4de3687d0745709dfdc4b1dea1484f44c
-  FirebaseCore: e38f025287b413255a53acc1945d048a112047f7
-  FirebaseInstanceID: 0e0348a3c00a734fa376a070f5ad4533ad975cb5
-  GoogleAppMeasurement: 7f028ea162b72c8f326daec74afc95d94f7a47d6
-  GoogleUtilities: 84df567c76ca84f67b7bb40e769fdd4acc746a10
-  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  FoldingCell: 9197b915a415af9e52a857964066797af6a51c2b
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TMDBSwift: 9220f3dcee23372c05b92f8c111f5f4c37185aee
 
-PODFILE CHECKSUM: 34f483334c59efeba8e7b202a48ee34cc4b489cf
+PODFILE CHECKSUM: 841b83c92f7a14b9bc92f9e3e19cd6dcf370d262
 
 COCOAPODS: 1.7.0.rc.1

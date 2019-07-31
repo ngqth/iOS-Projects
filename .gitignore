@@ -6,7 +6,10 @@
 build/
 DerivedData/
 OMDB/GoogleService-Info.plist
-
+FoldingCell
+ExpandingCollectionView
+cardslider
+elongation-preview
 ## Various settings
 *.pbxuser
 !default.pbxuser
