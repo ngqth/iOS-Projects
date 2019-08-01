@@ -14,7 +14,7 @@
 		26CAE28722CCE6E1003B60E3 /* OMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE28622CCE6E1003B60E3 /* OMDBTests.swift */; };
 		26CAE29222CCE6E1003B60E3 /* OMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAE29122CCE6E1003B60E3 /* OMDBUITests.swift */; };
 		26CAE2A022CCEDBB003B60E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26CAE29F22CCEDBB003B60E3 /* GoogleService-Info.plist */; };
-		26CE851722F232E80066FF25 /* OMDBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851622F232E80066FF25 /* OMDBCell.swift */; };
+		26CE851722F232E80066FF25 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851622F232E80066FF25 /* Cell.swift */; };
 		26CE851922F2330D0066FF25 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851822F2330D0066FF25 /* MainTableViewController.swift */; };
 		26CE851B22F2369A0066FF25 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CE851A22F2369A0066FF25 /* Movie.swift */; };
 		33C48004CA9E358389C57501 /* Pods_OMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036682CC77F5E8CEA3AF2261 /* Pods_OMDB.framework */; };
@@ -55,7 +55,7 @@
 		26CAE29122CCE6E1003B60E3 /* OMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBUITests.swift; sourceTree = "<group>"; };
 		26CAE29322CCE6E1003B60E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26CAE29F22CCEDBB003B60E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		26CE851622F232E80066FF25 /* OMDBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBCell.swift; sourceTree = "<group>"; };
+		26CE851622F232E80066FF25 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		26CE851822F2330D0066FF25 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		26CE851A22F2369A0066FF25 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		416A5E32665B3C34450DC867 /* Pods-OMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB.release.xcconfig"; path = "Target Support Files/Pods-OMDB/Pods-OMDB.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				26CAE26F22CCE6DF003B60E3 /* AppDelegate.swift */,
-				26CE851622F232E80066FF25 /* OMDBCell.swift */,
+				26CE851622F232E80066FF25 /* Cell.swift */,
 				26CE851822F2330D0066FF25 /* MainTableViewController.swift */,
 				26CE851A22F2369A0066FF25 /* Movie.swift */,
 				26CAE27522CCE6DF003B60E3 /* Main.storyboard */,
@@ -402,7 +402,7 @@
 				26CAE27022CCE6DF003B60E3 /* AppDelegate.swift in Sources */,
 				26CE851922F2330D0066FF25 /* MainTableViewController.swift in Sources */,
 				26CE851B22F2369A0066FF25 /* Movie.swift in Sources */,
-				26CE851722F232E80066FF25 /* OMDBCell.swift in Sources */,
+				26CE851722F232E80066FF25 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,9 +20,9 @@ class MainTableViewController: UITableViewController {
     }
     
     var cellHeights: [CGFloat] = []
-    private var data: [MovieMDB]!
     private var rowsCount = 0
-    
+    private var data: [MovieMDB]!
+    var movieData = [myMovie]()
     // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,13 +30,24 @@ class MainTableViewController: UITableViewController {
         MovieMDB.discoverMovies(params: [.language("en"), .page(1)], completion: {api, movie in
             //self.data = api
             if let movie = movie{
+                self.data = movie
                 DispatchQueue.main.async {
-                    self.rowsCount = movie.count
-                    self.setup()
-                    self.tableView.reloadData()
+                    for i in 0...self.data.count - 1{
+                        MovieMDB.movie(movieID: movie[i].id) { (api, movieDetail) in
+                            let temp = myMovie(ref: (movie: movie[i], detail: movieDetail!))
+                            DispatchQueue.main.async {
+                                self.movieData.append(temp)
+                            }
+                        }
+                    }
                 }
             }
         })
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.rowsCount = self.data.count
+            self.setup()
+            self.tableView.reloadData()
+        }
     }
     
     // MARK: Helpers
@@ -72,7 +83,7 @@ extension MainTableViewController {
     }
     
     override func tableView(_: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        guard case let cell as DemoCell = cell else {
+        guard case let cell as MovieCell = cell else {
             return
         }
         
@@ -88,10 +99,11 @@ extension MainTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "FoldingCell", for: indexPath) as! FoldingCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FoldingCell", for: indexPath) as! MovieCell
         let durations: [TimeInterval] = [0.26, 0.2, 0.2]
         cell.durationsForExpandedState = durations
         cell.durationsForCollapsedState = durations
+        cell.movie = self.movieData[indexPath.row]
         return cell
     }
     
